@@ -24,7 +24,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="font-display font-extrabold text-[56px] md:text-[80px] leading-[1.05] tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-slate"
+          className="font-display font-extrabold text-[36px] sm:text-[44px] md:text-[80px] leading-[1.05] tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-slate"
         >
           Scale yourself.<br className="hidden md:block"/>Not your hours.
         </motion.h1>

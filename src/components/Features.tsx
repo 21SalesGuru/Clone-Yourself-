@@ -32,10 +32,10 @@ export function HowItWorks() {
            viewport={{ once: true, margin: "-100px" }}
            className="text-center mb-20"
         >
-          <h2 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">From you, to clone, in three steps.</h2>
+          <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">From you, to clone, in three steps.</h2>
         </motion.div>
 
-        <div className="bg-white/[0.03] backdrop-blur-md border border-white/10 rounded-[32px] p-8 md:p-12 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-8 md:gap-4 relative shadow-2xl">
+        <div className="bg-white/[0.03] backdrop-blur-md border border-white/10 rounded-[24px] md:rounded-[32px] p-6 md:p-12 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-8 md:gap-4 relative shadow-2xl">
 
           {steps.map((step, idx) => (
             <motion.div 
@@ -102,7 +102,7 @@ export function UseCases() {
            viewport={{ once: true, margin: "-100px" }}
            className="mb-16 md:mb-24 text-center"
         >
-          <h2 className="font-display font-bold text-4xl md:text-5xl lg:text-5xl tracking-tight leading-tight max-w-4xl mx-auto">Built for people who need more attention, more content, and more conversations without becoming a full-time content team.</h2>
+          <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight leading-tight max-w-4xl mx-auto">Built for people who need more attention, more content, and more conversations without becoming a full-time content team.</h2>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">

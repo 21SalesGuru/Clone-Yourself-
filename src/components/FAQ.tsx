@@ -101,7 +101,7 @@ export function FAQ() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight mb-4">Frequently Asked Questions</h2>
+          <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl tracking-tight mb-4">Frequently Asked Questions</h2>
           <p className="text-brand-slate text-lg">Everything you need to know about scaling yourself.</p>
         </motion.div>
 

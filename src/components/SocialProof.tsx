@@ -31,7 +31,7 @@ export function Testimonials() {
               className="bg-white/[0.03] backdrop-blur-lg border border-white/10 rounded-[32px] p-4 lg:p-5 shadow-2xl relative group overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-brand-indigo/10 to-brand-violet/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[32px]"></div>
-              <div className="relative aspect-[9/16] w-full rounded-2xl overflow-hidden bg-brand-bg/50 border border-white/5 mx-auto flex items-center justify-center">
+              <div className="relative aspect-[9/16] w-full max-w-[260px] sm:max-w-sm rounded-2xl overflow-hidden bg-brand-bg/50 border border-white/5 mx-auto flex items-center justify-center">
                 <iframe
                   className="w-full h-full rounded-2xl"
                   src={`https://www.youtube.com/embed/${videoId}`}
