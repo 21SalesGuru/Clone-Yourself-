@@ -66,18 +66,12 @@ export function FooterCTA() {
         <div className="absolute inset-0 bg-[#000000] opacity-10 mix-blend-overlay rounded-[32px]" style={{backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 1px)', backgroundSize: '30px 30px'}}></div>
         
         <div className="relative z-10 w-full">
-          <h2 className="font-display font-bold text-4xl md:text-5xl lg:text-[64px] mb-6 text-white leading-tight tracking-tight">
+          <h2 className="font-display font-bold text-4xl md:text-5xl lg:text-[64px] mb-10 text-white leading-tight tracking-tight">
             Your time is finite.<br/>Your clone isn't.
           </h2>
-          <p className="text-white/80 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-            Start free. No credit card. Clone yourself in 10 minutes.
-          </p>
-          <a href="#" className="inline-block bg-white text-brand-indigo text-lg font-bold px-8 py-4 rounded-xl shadow-xl hover:scale-[1.02] transition-transform w-full sm:w-auto">
-            Clone Yourself Free →
+          <a href="https://calendly.com/d/cxxb-mv8-zc6/clone-yourself-strategy-call?month=2026-05" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-brand-indigo text-lg font-bold px-8 py-4 rounded-xl shadow-xl hover:scale-[1.02] transition-transform w-full sm:w-auto">
+            Speak With Our Team →
           </a>
-          <p className="mt-8 text-white/70 text-sm">
-            Already have an account? <a href="#" className="text-white font-semibold hover:underline hover:text-white/90">Sign in</a>
-          </p>
         </div>
       </motion.div>
     </section>
