@@ -1,0 +1,6 @@
+{
+  "name": "CloneYourself.ai",
+  "description": "The world's first AI that sounds, thinks, and responds like you.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
