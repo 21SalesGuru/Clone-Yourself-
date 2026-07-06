@@ -69,7 +69,7 @@ export function FooterCTA() {
           <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] mb-10 text-white leading-tight tracking-tight">
             Your time is finite.<br/>Your clone isn't.
           </h2>
-          <a href="https://calendly.com/d/cxxb-mv8-zc6/clone-yourself-strategy-call?month=2026-05" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-brand-indigo text-lg font-bold px-6 py-4 md:px-8 rounded-xl shadow-xl hover:scale-[1.02] transition-transform w-full sm:w-auto text-center max-w-full">
+          <a href="https://calendly.com/d/cvyj-ddz-kbj/book-a-call-and-get-a-free-ai-clone" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-brand-indigo text-lg font-bold px-6 py-4 md:px-8 rounded-xl shadow-xl hover:scale-[1.02] transition-transform w-full sm:w-auto text-center max-w-full">
             Speak With Our Team →
           </a>
         </div>
